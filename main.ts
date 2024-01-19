@@ -15,7 +15,7 @@ const app = express();
 app.use(express.json());
 app
   .get("/", async (req: Request, res: Response) => {res.send("Funciona todo correctamente")})
-  .get("/as",async (req: Request, res: Response) => {res.send("Funciona todo correctamente")})
+  
   
 
 app.listen(3000, () => {
